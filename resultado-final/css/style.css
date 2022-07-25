@@ -1,0 +1,154 @@
+
+/* ESTILOS GERAIS */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    background-color: #6B09AF;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+}
+
+.btn-branco{
+    color: rgb(126, 69, 155);
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+/* ESTILOS DO BANNER */
+
+.banner-div{
+    height: 90vh;
+    text-align: center;
+    padding-top: 20rem;
+    color: white;
+    background: url(../img/banner-mariana.png) center center / cover no-repeat;
+}
+
+.banner-container{
+    max-width: 1080px;
+    margin: 10rem auto 0px;
+}
+
+
+.banner-titulo{
+    font-size: 5rem;
+    font-family: 'Edu VIC WA NT Beginner', Arial, Helvetica, sans-serif;
+}
+
+.banner-subtitulo{
+    font-size: 2.3rem;
+
+}
+
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+
+/* ESTILO SEÇÃO SOBRE MIM
+ */
+
+ .sobre-container{
+    margin: 3rem;
+ }
+
+ .sobre-titulo{
+    padding: 11rem;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+ }
+
+ .sobre-descricao__div{
+    width: 40%;
+    display: inline-block;
+    line-height: 1.5;
+ }
+
+.sobre-descricao__destaque{
+    font-size: 2rem;
+}
+
+.sobre-descricao__texto{
+    display: inline-block;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn-roxo{
+    color: #F4D4F9;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(126, 69, 155);
+    border-image: initial;
+}
+
+.sobre-habilidades__div{
+    width: 40%;
+    float: right;
+    line-height: 1.0;
+    margin-left: 15rem;
+}
+
+.sobre-habilidades__titulo{
+    font-size: 2rem;
+    text-decoration: solid;
+}
+
+.sobre-habilidades__lista{
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+
+.link-habilidade{
+   color: #9156BB;
+   text-decoration: underline;
+
+}
+/* ESTILO REDES SOCIAIS */
+
+.redes-sociais__div{
+    text-align: center;
+    margin: 3rem;
+    margin-bottom: 80px;
+}
+
+.redes-sociais__item{
+    display: inline-block;
+    width: 20%;
+    background-color: #7F3A8A;
+    text-align: center;
+    color: white;
+    padding: 2rem 0px;
+    margin: 0px 1rem;
+}
+
+.redes-sociais__img{
+    margin-bottom: 0.5rem;
+}
+
